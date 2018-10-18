@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using MES.Library.Client;
+using System.Diagnostics;
 
 namespace MESLibraryRedundancyUtility
 {
@@ -16,14 +17,17 @@ namespace MESLibraryRedundancyUtility
         {
             InitializeComponent();
 
-            txt_primServiceURL.Text = @"http://NLNUNL0102/MESLibraryV31/";
-            txt_secServiceURL.Text = @"http://NLNUNL0202/MESLibraryV31/";
+            txt_primServiceURL.Text = @"http://PHTANL0021/MESLibraryV31/";
+            txt_secServiceURL.Text = @"http://PHTANL0021/MESLibraryV31/";
             txt_ServiceName.Text = @"WCFService.svc";
             txt_dllVersion.Text = "3.1.0";
         }
 
         private void btn_init_Click(object sender, EventArgs e)
         {
+            Stopwatch sw = new Stopwatch();
+            sw.Start();
+
             Request request = new Request();
             Request.PrimaryServiceURL = txt_primServiceURL.Text;
             Request.SecondaryServiceURL = txt_secServiceURL.Text;
@@ -45,6 +49,9 @@ namespace MESLibraryRedundancyUtility
                 LogLine("ERROR:" + request.ReturnCode + " ReturnMessage:" + request.ReturnMessage + " ReturnErrorDetail:" + request.ReturnErrorDetail);
                 btn_init.BackColor = Color.Red;
             }
+
+            sw.Stop();
+            LogLine(String.Format("TIME - {0}msec", sw.ElapsedMilliseconds));
 
         }
 
