@@ -1,2 +1,11 @@
 C:\Users\oliverv\Documents\Source\MESLibraryRedundancyUtility\MESLibraryRedundancyUtility\bin\Debug\MESLibraryRedundancyUtility.exe.config
 C:\source\MESLibraryRedundancyUtility\MESLibraryRedundancyUtility\bin\Debug\MESLibraryRedundancyUtility.exe.config
+C:\source\MESLibraryRedundancyUtility\MESLibraryRedundancyUtility\bin\Debug\MESLibraryRedundancyUtility.exe
+C:\source\MESLibraryRedundancyUtility\MESLibraryRedundancyUtility\bin\Debug\MESLibraryRedundancyUtility.pdb
+C:\source\MESLibraryRedundancyUtility\MESLibraryRedundancyUtility\bin\Debug\MES.Library.Client.dll
+C:\source\MESLibraryRedundancyUtility\MESLibraryRedundancyUtility\obj\Debug\MESLibraryRedundancyUtility.csprojResolveAssemblyReference.cache
+C:\source\MESLibraryRedundancyUtility\MESLibraryRedundancyUtility\obj\Debug\MESLibraryRedundancyUtility.Form1.resources
+C:\source\MESLibraryRedundancyUtility\MESLibraryRedundancyUtility\obj\Debug\MESLibraryRedundancyUtility.Properties.Resources.resources
+C:\source\MESLibraryRedundancyUtility\MESLibraryRedundancyUtility\obj\Debug\MESLibraryRedundancyUtility.csproj.GenerateResource.Cache
+C:\source\MESLibraryRedundancyUtility\MESLibraryRedundancyUtility\obj\Debug\MESLibraryRedundancyUtility.exe
+C:\source\MESLibraryRedundancyUtility\MESLibraryRedundancyUtility\obj\Debug\MESLibraryRedundancyUtility.pdb

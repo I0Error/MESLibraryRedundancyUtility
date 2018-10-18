@@ -1,0 +1,9 @@
+C:\source\MESLibraryRedundancyUtility\MESLibraryRedundancyUtility\bin\Release\MESLibraryRedundancyUtility.exe.config
+C:\source\MESLibraryRedundancyUtility\MESLibraryRedundancyUtility\bin\Release\MESLibraryRedundancyUtility.exe
+C:\source\MESLibraryRedundancyUtility\MESLibraryRedundancyUtility\bin\Release\MESLibraryRedundancyUtility.pdb
+C:\source\MESLibraryRedundancyUtility\MESLibraryRedundancyUtility\bin\Release\MES.Library.Client.dll
+C:\source\MESLibraryRedundancyUtility\MESLibraryRedundancyUtility\obj\Release\MESLibraryRedundancyUtility.Form1.resources
+C:\source\MESLibraryRedundancyUtility\MESLibraryRedundancyUtility\obj\Release\MESLibraryRedundancyUtility.Properties.Resources.resources
+C:\source\MESLibraryRedundancyUtility\MESLibraryRedundancyUtility\obj\Release\MESLibraryRedundancyUtility.csproj.GenerateResource.Cache
+C:\source\MESLibraryRedundancyUtility\MESLibraryRedundancyUtility\obj\Release\MESLibraryRedundancyUtility.exe
+C:\source\MESLibraryRedundancyUtility\MESLibraryRedundancyUtility\obj\Release\MESLibraryRedundancyUtility.pdb
