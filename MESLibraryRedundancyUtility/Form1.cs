@@ -68,7 +68,7 @@ namespace MESLibraryRedundancyUtility
             Request request = new Request();
             request.Init(txt_dllVersion.Text, 0, "nestec");
             request.ObjectName = "MESLibraryTestUtility";
-            request.AddParameter("entId", 7);
+            request.AddParameter("entId", 1);
             request.ExecuteById("EntityManager_GetEntityNameById");
 
             if (request.ReturnCode == 0)
