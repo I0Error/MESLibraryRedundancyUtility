@@ -77,7 +77,7 @@ namespace MESLibraryRedundancyUtility
             }
             else
             {
-                LogLine("ERROR:" + request.ReturnCode + " ReturnMessage:" + request.ReturnMessage + " ReturnErrorDetail:" + request.ReturnErrorDetail);
+                LogLine("ERROR:" + request.ReturnCode + " Return Message:" + request.ReturnMessage + " Return Error Detail:" + request.ReturnErrorDetail);
 
             }
 
