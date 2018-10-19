@@ -76,7 +76,7 @@ namespace MESLibraryRedundancyUtility
 
             if (request.ReturnCode == 0)
             {
-                LogLine("SUCCESS - " + request.ReturnValueAsString);
+                LogLine("SUCCESS- " + request.ReturnValueAsString);
             }
             else
             {
