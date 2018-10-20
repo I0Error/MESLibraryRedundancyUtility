@@ -65,21 +65,26 @@ namespace MESLibraryRedundancyUtility
         private void btn_getEntNameByID_Click(object sender, EventArgs e)
         {
 
+            Stopwatch sw = new Stopwatch();
+            sw.Start();
+
             Request request = new Request();
             request.Init(txt_dllVersion.Text, 0, "nestec");
             request.ObjectName = "MESLibraryTestUtility";
-            request.AddParameter("entId", 7);
+            request.AddParameter("entId", 150);
             request.ExecuteById("EntityManager_GetEntityNameById");
 
             if (request.ReturnCode == 0)
             {
-                LogLine("SUCCESS - " + request.ReturnValueAsString);
+                LogLine("SUCCESS- " + request.ReturnValueAsString);
             }
             else
             {
                 LogLine("ERROR:" + request.ReturnCode + " ReturnMessage:" + request.ReturnMessage + " ReturnErrorDetail:" + request.ReturnErrorDetail);
 
             }
+            sw.Stop();
+            LogLine(String.Format("TIME - {0}msec", sw.ElapsedMilliseconds));
 
         }
 
@@ -95,6 +100,9 @@ namespace MESLibraryRedundancyUtility
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Stopwatch sw = new Stopwatch();
+            sw.Stop();
+            LogLine(String.Format("TIME - {0}msec", sw.ElapsedMilliseconds));
             try
             {
                 String mes = MES.Library.Client.SQLCommand.GetConnectionString("MES");
@@ -105,6 +113,8 @@ namespace MESLibraryRedundancyUtility
             {
                 MessageBox.Show(ex.Message + ex.StackTrace);
             }
+            sw.Stop();
+            LogLine(String.Format("TIME - {0}msec", sw.ElapsedMilliseconds));
 
 
         }
